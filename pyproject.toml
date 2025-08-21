@@ -1,6 +1,6 @@
 [project]
 name = "mytestrepo"
-version = "0.2.0"
+version = "0.3.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -10,6 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "ipython>=9.4.0",
     "pandas>=2.3.2",
+    "rich>=14.1.0",
 ]
 
 [project.scripts]
