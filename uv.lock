@@ -117,7 +117,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mytestrepo"
+name = "mytestrepo-uvpack"
 version = "0.3.0"
 source = { editable = "." }
 dependencies = [
