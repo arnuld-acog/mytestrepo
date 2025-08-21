@@ -9,10 +9,6 @@ jobs:
   build:
     name: Build distribution 📦
     runs-on: ubuntu-latest
-    jobs:
-  run:
-    name: "Build and publish release"
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
